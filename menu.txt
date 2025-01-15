@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мәзір</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .menu {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 20px;
+            gap: 20px;
+        }
+        .menu-item {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            padding: 15px;
+            text-align: center;
+        }
+        .menu-item img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .menu-item h3 {
+            margin: 10px 0 5px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Мәзір</h1>
+    </header>
+    <section class="menu">
+        <div class="menu-item">
+            <img src="https://avatars.mds.yandex.net/i?id=73317d514a14aba35921ec84252d533f45fcc844-12590067-images-thumbs&n=13" alt="Пицца">
+            <h3>Пицца</h3>
+            <p>Бағасы: 2500 ₸</p>
+        </div>
+        <div class="menu-item">
+            <img src="https://avatars.mds.yandex.net/i?id=b8658d72cde6ec0859c26e42edb1fc78f1e4b7fd-8497407-images-thumbs&n=13" alt="Бургер">
+            <h3>Бургер</h3>
+            <p>Бағасы: 1500 ₸</p>
+        </div>
+        <div class="menu-item">
+            <img src="https://avatars.mds.yandex.net/i?id=10730fbedb4e6b3f6463810cb7b912357e37e76a-5177647-images-thumbs&n=13" alt="Паста">
+            <h3>Паста</h3>
+            <p>Бағасы: 2000 ₸</p>
+        </div>
+        <div class="menu-item">
+            <img src="https://avatars.mds.yandex.net/i?id=c3b62f78e2211ae29f22fd95ae6e308b94b6549a03b3254f-5850566-images-thumbs&n=13" alt="палау">
+            <h3>Палау</h3>
+            <p>Бағасы: 1800 ₸</p>
+        </div>
+        <div class="menu-item">
+            <img src="https://avatars.mds.yandex.net/i?id=76c18a7b43580e2bf8778ef41db8d4f6ccc1b333-10727469-images-thumbs&n=13" alt="бешбармақ">
+            <h3>Бешбармақ</h3>
+            <p>Бағасы: 2200 ₸</p>
+        </div>
+        <div class="menu-item">
+            <img src="https://avatars.mds.yandex.net/i?id=03ad67678a7857bb4cfed3abcdcf183eb5607f1d-9699933-images-thumbs&n=13" alt="лағман">
+            <h3>Лағман</h3>
+            <p>Бағасы: 1200 ₸</p>
+       </div>
+        <div class="menu-item">
+            <img src="https://avatars.mds.yandex.net/i?id=62002ee97d0cae862be58649a781850d5cbf0082-9674922-images-thumbs&n=13" alt="сорпа">
+            <h3>Сорпа</h3>
+            <p>Бағасы: 1000 ₸</p>
+       </div>
+        <div class="menu-item">
+            <img src="https://avatars.mds.yandex.net/i?id=904efa371b01e7e422e1f7539c85ca9b9d0770fe-5480663-images-thumbs&n=13" alt="манты">
+            <h3>Манты</h3>
+            <p>Бағасы: 1500 ₸</p>
+       </div>
+        <div class="menu-item">
+            <img src="https://avatars.mds.yandex.net/i?id=337a0523f6461e78c4a4ec70fd8dbb06363bbcac-13233258-images-thumbs&n=13" alt="қуырдақ">
+            <h3>Қуырдақ</h3>
+            <p>Бағасы: 2500 ₸</p>
+       </div>
+        <div class="menu-item">
+            <img src="https://avatars.mds.yandex.net/i?id=18291e212ea64db75b8d431cb3729820984a5ed9-8357156-images-thumbs&n=13" alt="макарон">
+            <h3>Макарон</h3>
+            <p>Бағасы: 1200 ₸</p>
+       </div>
+        <div class="menu-item">
+            <img src="https://avatars.mds.yandex.net/i?id=3ae5ed00f25f7b121774322c5eec5f1b4ecbc45f-12906151-images-thumbs&n=13" alt="Асарти">
+            <h3>Асарти</h3>
+            <p>Бағасы: 2100 ₸</p>
+       </div>
+        <div class="menu-item">
+            <img src="https://avatars.mds.yandex.net/i?id=c9e3f15465bee6e2df5c3d5620d7fd5d38f24ae6-4140023-images-thumbs&n=13" alt="Асарти жеміс">
+            <h3>Асарти жеміс</h3>
+            <p>Бағасы: 2100 ₸</p>
+       </div>
+        <div class="menu-item">
+            <img src="https://avatars.mds.yandex.net/i?id=9401f150b32b50d6d58d527622f07e55ef244bf8-5189886-images-thumbs&n=13" alt="донер">
+            <h3>Донер</h3>
+            <p>Бағасы: 1100 ₸</p>
+       </div>
+        <div class="menu-item">
+            <img src="https://avatars.mds.yandex.net/i?id=61e7e89fdff41ff572b5e0b968184f998cb1cf59-4551637-images-thumbs&n=13" alt="Кофе">
+            <h3>Кофе</h3>
+            <p>Бағасы: 450 ₸</p>
+       </div>
+        <div class="menu-item">
+            <img src="https://avatars.mds.yandex.net/i?id=adc65bc08d491c6c93234cc1e7ca74fe1f9590c7-5161119-images-thumbs&n=13" alt="Кофе капучино">
+            <h3>Кофе капучино</h3>
+            <p>Бағасы: 550 ₸</p>
+       </div>
+        <div class="menu-item">
+            <img src="https://avatars.mds.yandex.net/i?id=e3083545b8daee8690ce394141f295d4dead746f-5233017-images-thumbs&n=13" alt="Шәй">
+            <h3>Шәй</h3>
+            <p>Бағасы: 300 ₸</p>
+        </div>
+    </section>
+    <footer>
+        <p>© 2025 Дәмді Мейрамхана. Барлық құқықтар қорғалған.</p>
+    </footer>
+</body>
+</html>
